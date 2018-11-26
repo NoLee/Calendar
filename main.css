@@ -1,0 +1,60 @@
+table {
+    border-collapse: collapse;
+    font: 34px Calibri;
+    border: 10px solid green;
+    text-align: center;
+}
+
+th{
+    background-color: darkgreen;
+    color: white;
+    padding:10px;
+}
+
+button{
+    margin:15px;
+    height:30px;
+    width: 30px;
+}
+
+th, td {
+    position: relative;    
+}
+
+tr:nth-child(n+3) td:first-child {
+    color: darkred;
+}
+
+tr:nth-child(2){
+    background-color: green;
+    font-size: 15px;
+    color: lightgray;
+}
+
+/* target all date elements */
+tr:nth-child(n+3) td {
+    border: 1px solid lightgray; 
+    color: gray;
+    padding: 7px 30px;
+}
+
+tr:nth-child(n+3) td:after{
+    font: bold 12px "Font Awesome 5 Free";
+    opacity: 0.65;
+    content: "\f6c4";
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+
+tr:nth-child(n+3) td:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#currentDate{
+    background-color: lightgray;
+    color: green;
+    font-weight: bold;
+}
+
