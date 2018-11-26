@@ -1,2 +1,2 @@
 # Calendar
-Creating a calendar using HTML and CSS
+Creating a simple calendar using HTML and CSS.
